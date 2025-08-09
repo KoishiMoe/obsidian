@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "obsidian",
+  "version": "${version}",
+  "name": "obsidian",
+  "description": "",
+  "authors": ["KoishiMoe"],
+  "contact": {},
+  "license": "AGPL-3.0",
+  "icon": "assets/obsidian/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "dev.lolihub.obsidian.Obsidian"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
